@@ -3,48 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Send Email</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>GitHub and iOS 18 Dark Mode Inspired Contact Form</title>
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <form id="emailForm">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required><br><br>
-
-        <label for="to_email">Email:</label>
-        <input type="email" id="to_email" name="to_email" required><br><br>
+    <div class="container">
+        <div class="dev-warning">
+            ⚠️ Development Environment: This is a testing version. Do not use in production.
+        </div>
         
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" required></textarea><br><br>
-
-        <button type="button" onclick="sendEmail()">Send</button>
-    </form>
-
-    <script>
-        function sendEmail() {
-            const formData = {
-                name: document.getElementById('name').value,
-                to_email: document.getElementById('to_email').value,
-                message: document.getElementById('message').value
-            };
-            fetch('https://phpmail-3ipn6w21c-student408s-projects.vercel.app/send_email.php', {
-    method: 'POST',
-    headers: {
-        'Content-Type': 'application/json'
-    },
-    body: JSON.stringify(formData)
-})
-
-
+        <h2>Development Mail Service Test</h2>
+        
+        <div class="dev-code">
+        
+        <form id="contactForm">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required placeholder="Teddy">
+        
+            <label for="email">Email</label>
+            <input type="email" id="to_email" name="email" required placeholder="teddy@mrbean.com">
+        
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required placeholder="Uh-oh! Watch your words, let's keep it friendly!"></textarea>
             
-            .then(response => response.text())
-            .then(data => {
-                alert(data);
-            })
-            .catch(error => {
-                alert('Error: ' + error);
-            });
-        }
-    </script>
-    
+            <button class="btn btn-submit" type="submit">Send message</button>
+        </form>
+        
+        <footer class="footer">
+            <div class="social-links">
+                <a href="https://github.com/Student408" target="_blank" rel="noopener noreferrer" class="fab fa-github" title="GitHub"></a>
+                <a href="https://www.linkedin.com/in/ranjanshettigar/" class="fab fa-linkedin" target="_blank" rel="noopener noreferrer" title="LinkedIn"></a>
+                <a href="mailto:ranjanshettigar123@gmail.com" class="fas fa-envelope" target="_blank" title="Email"></a>
+                <a href="https://www.youtube.com/@dropinxyz" target="_blank" rel="noopener noreferrer" class="fab fa-youtube" title="YouTube"></a>
+                <a href="https://open.spotify.com/artist/06DMQXuBVV0Zs2COEdjE3q" target="_blank" rel="noopener noreferrer" class="fab fa-spotify" title="Spotify"></a>
+                <a href="https://x.com/lokotwiststudio" target="_blank" rel="noopener noreferrer" class="fab fa-twitter" title="Twitter"></a>
+                <a href="https://linktr.ee/THE.LOKO?subscribe" target="_blank" rel="noopener noreferrer" class="fas fa-link" title="Link"></a>
+            </div>
+            <p class="copy">&copy; 2024 Made with ChatGPT & Claude.ai.</p>
+        </footer>
+    </div>
+    <script src="./assets/js/email.js"></script>
 </body>
 </html>
