@@ -2,6 +2,9 @@
 
 Welcome to the repository for Mr. Bean's Peculiar Portfolio Contact System! This project provides a whimsical yet functional email service for Mr. Bean's portfolio website, perfect for development and testing purposes.
 
+**Live**: [Mr.Bean](https://student408.github.io/Mr.Bean)
+          [Mr.Bean](https://mr-bean.pages.dev/)
+
 ## 🎭 Overview
 
 This system includes a contact form that sends emails using PHP and SMTP, with client-side handling using JavaScript. It features custom email templates that reflect Mr. Bean's quirky personality.
