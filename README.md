@@ -139,8 +139,6 @@ Feel free to adjust the colors, fonts, and layout of the email templates and con
 
 - [GitHub](https://github.com/Student408)
 - [LinkedIn](https://www.linkedin.com/in/ranjanshettigar/)
-- [YouTube](https://www.youtube.com/@dropinxyz)
-- [Spotify](https://open.spotify.com/artist/06DMQXuBVV0Zs2COEdjE3q)
 - [Twitter](https://x.com/lokotwiststudio)
 - [LinkTree](https://linktr.ee/THE.LOKO?subscribe)
 
