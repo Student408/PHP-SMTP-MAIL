@@ -26,7 +26,7 @@ This is a development and testing version. Do not use in production without prop
 ## 🛠 Setup
 ## get password or create password 
    ```
-  [ https://github.com/Student408/PHP-SMTP-MAIL.git](https://accounts.google.com/v3/signin/challenge/pwd?TL=AKeb6myX4XbQMoCtvB_tHxG3JoMvtaMTMYBIu5Qeli2FMpGfQvzGgMpDYexLz1bl&cid=2&continue=https%3A%2F%2Fmyaccount.google.com%2Fapppasswords&flowName=GlifWebSignIn&followup=https%3A%2F%2Fmyaccount.google.com%2Fapppasswords&ifkv=Ab5oB3oE4jlnbv398SGnl0oS7YROzUYhEktYe5fWKfqgwaRENatUvNNt0n5MkVqh6qUnHUW2gSUNxA&osid=1&rart=ANgoxcc4x56MayCrzrDeSN9ltZxXfchXOMX9h5xjW3Zss0lcSJGWkiZnNsdptnuVdVZbsuQPmfu76ghr9RLtmWprdGU_3eLNakoTTjt8eEGg2VKCQYv1OMM&rpbg=1&service=accountsettings)
+  [ google auth](https://accounts.google.com/v3/signin/challenge/pwd?TL=AKeb6myX4XbQMoCtvB_tHxG3JoMvtaMTMYBIu5Qeli2FMpGfQvzGgMpDYexLz1bl&cid=2&continue=https%3A%2F%2Fmyaccount.google.com%2Fapppasswords&flowName=GlifWebSignIn&followup=https%3A%2F%2Fmyaccount.google.com%2Fapppasswords&ifkv=Ab5oB3oE4jlnbv398SGnl0oS7YROzUYhEktYe5fWKfqgwaRENatUvNNt0n5MkVqh6qUnHUW2gSUNxA&osid=1&rart=ANgoxcc4x56MayCrzrDeSN9ltZxXfchXOMX9h5xjW3Zss0lcSJGWkiZnNsdptnuVdVZbsuQPmfu76ghr9RLtmWprdGU_3eLNakoTTjt8eEGg2VKCQYv1OMM&rpbg=1&service=accountsettings)
    ```
 
 1. Clone this repository faster than Mr. Bean can get into trouble:
