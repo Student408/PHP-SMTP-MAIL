@@ -26,7 +26,7 @@ This is a development and testing version. Do not use in production without prop
 ## 🛠 Setup
 ## get password or create password 
    ```
-  [ google auth](https://accounts.google.com/v3/signin/challenge/pwd?TL=AKeb6myX4XbQMoCtvB_tHxG3JoMvtaMTMYBIu5Qeli2FMpGfQvzGgMpDYexLz1bl&cid=2&continue=https%3A%2F%2Fmyaccount.google.com%2Fapppasswords&flowName=GlifWebSignIn&followup=https%3A%2F%2Fmyaccount.google.com%2Fapppasswords&ifkv=Ab5oB3oE4jlnbv398SGnl0oS7YROzUYhEktYe5fWKfqgwaRENatUvNNt0n5MkVqh6qUnHUW2gSUNxA&osid=1&rart=ANgoxcc4x56MayCrzrDeSN9ltZxXfchXOMX9h5xjW3Zss0lcSJGWkiZnNsdptnuVdVZbsuQPmfu76ghr9RLtmWprdGU_3eLNakoTTjt8eEGg2VKCQYv1OMM&rpbg=1&service=accountsettings)
+https://accounts.google.com/v3/signin/challenge/pwd?TL=AKeb6mzta1U0NQPH6baszutaKIZSXy2nfsTAXwpPZmOLazwXBeEuDRtuGFpWS6UP&cid=2&continue=https%3A%2F%2Fmyaccount.google.com%2Fapppasswords&flowName=GlifWebSignIn&followup=https%3A%2F%2Fmyaccount.google.com%2Fapppasswords&ifkv=Ab5oB3oeLD0fvrBLEcgBkac7AYCTwZSOWt2zwhcHuWooeI4aLzdK2kBHLOWEl22dFAdSy1WlYEZ94w&osid=1&rart=ANgoxcc1I8O7rxlzBB3FVEadP5B01lhR70Z-vpE8YWTJv5uEUc7yd1KAH_u-ksKGfjKQcZ-B4e4MiGuY1H2-slop2UvbNIz2dmYVtd_i6bfM5_uNuLiSRCE&rpbg=1&service=accountsettings
    ```
 
 1. Clone this repository faster than Mr. Bean can get into trouble:
